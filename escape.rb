@@ -6,6 +6,6 @@ r = ARGV[0].to_f
 #print "ingrese el radio del planeta"
 g = ARGV[1].to_f
 
+producto = (g * r) * 2
 
-puts g 
-puts r
+puts producto
