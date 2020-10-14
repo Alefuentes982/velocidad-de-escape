@@ -1,11 +1,10 @@
 
-#print "ingrese la gravedad del planeta"
-
 r = ARGV[0].to_f
 
-#print "ingrese el radio del planeta"
 g = ARGV[1].to_f
 
 producto = (g * r) * 2
 
-puts producto
+ve =  Math.sqrt(producto)
+
+puts "la velocidad de escape es: #{ve}"
